@@ -116,3 +116,15 @@ SET INTERVAL FUNCTIONS
 
 Set timeout FUNCTIONS
 ***************************
+
+
+MODIFY CSS USING JS
+
+ onmouseeter
+ onmouseleave methods
+
+
+ and style.fontsize 
+ css changing 
+
+**********************************************
