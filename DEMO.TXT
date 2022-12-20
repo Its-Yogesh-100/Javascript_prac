@@ -15,3 +15,60 @@ it will take data , modify and many more
 
 
 ****VARIOUS FRAMEWORKS AND LIBRARIES OF JAVASCRIPT****
+
+FRAMEWORKS helps to easify the code
+
+
+1 ANGULAR
+2 REACT
+3 JQUERY
+4 VUE.JS
+5 EXT.JS
+6 EMBER.JS
+7 NODE.JS
+8 POLYMER
+9 AUREILA
+10 BACKBONE.JS
+
+********************************************************
+
+
+TYPES OF JAVASCRIPT
+
+INTERNAL  JAVASCRIPT
+
+    * INSIDE BODY TAG
+    SCRIPT TAG 
+
+    <SCRIPT>
+
+
+EXTERNAL JS
+  
+  *PREDEFINE programming
+  * CAN BE USE IN AMY  PAGE IN HTML PAGES
+
+
+  ****************************************************
+
+  VARIOUS FUNCTIONS
+
+  1 ALERT
+    create a alert box 
+
+  2 CONFIRM
+    opens a confirm dialog and returns true of false depending
+    on user click
+
+  3 CONSOLE.LOG
+    writes information to the browser console,good from
+    debugging
+
+  4 DOCUMENT.WRITE()
+
+    helps to write anything on direcly html DOCUMENT
+
+  5 PROMPT
+    to take input from user
+
+****************************************************
