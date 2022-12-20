@@ -64,7 +64,7 @@ EXTERNAL JS
     writes information to the browser console,good from
     debugging
 
-  4 DOCUMENT.WRITE()
+  4 DOCUMENT .WRITE()
 
     helps to write anything on direcly html DOCUMENT
 
