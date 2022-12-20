@@ -70,5 +70,5 @@ EXTERNAL JS
 
   5 PROMPT
     to take input from user
-
+    PROMPT(msg,default)
 ****************************************************
