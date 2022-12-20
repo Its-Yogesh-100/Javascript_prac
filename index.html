@@ -8,21 +8,41 @@
 </head>
 <body>
 
-   <h1 id="dd" style="margin: 50px auto;width: 300px;"></h1>
 
+    <h1 id="ff"></h1>
 
-   <input type="text" name="" id="name">
-   <button onclick="greet()">
-    Greet
-   </button>
+    <input type="text" id="inp">
+    <button id="push" onclick="push()">
+        PUSH
+    </button>
+
+    <button  onclick="pop()">
+        POP
+    </button>
+ 
 
     <script type="text/javascript">
 
    var arr=["apple","mango","banana","jackfrouit"];
 
 
+   document.getElementById("ff").innerHTML=arr;
 
-   alert(Array.isArray(arr));
+   function push() {
+
+    var w=document.getElementById("inp").value;
+    arr.push(w);
+
+    document.getElementById("ff").innerHTML=arr;
+   }
+
+   function pop()
+   {
+     arr.pop();
+     document.getElementById("ff").innerHTML=arr;
+   }
+
+  
             
     </script>
     
