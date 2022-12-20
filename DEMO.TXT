@@ -1,0 +1,17 @@
+
+* JS is an interpreted, client side , event based,oop language
+* event based--> works on event like onlcikck and more
+* run on client browser
+* java is not necessary
+* case sensitive language
+* js can modify your page dynamically without page refresh
+it will take data , modify and many more
+* it can take data from user and validate that data
+* js can be use in cookies also
+* it is full feature programming language also
+
+* supported to all browser
+* eventdriven language
+
+
+****VARIOUS FRAMEWORKS AND LIBRARIES OF JAVASCRIPT****
