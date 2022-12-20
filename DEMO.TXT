@@ -103,3 +103,9 @@ helps to change the data of documents
 date methods
 
 
+**********************************
+
+Dom methods like
+
+getElementByName();
+getElementsByTagName();
