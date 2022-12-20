@@ -109,3 +109,10 @@ Dom methods like
 
 getElementByName();
 getElementsByTagName();
+
+
+*****************************************
+SET INTERVAL FUNCTIONS
+
+Set timeout FUNCTIONS
+***************************

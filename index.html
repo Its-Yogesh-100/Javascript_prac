@@ -10,18 +10,32 @@
 
    <h1></h1>
 
-    <input type="text" name="uname">
-
-    <button onclick="getname()">submit</button>
  
- 
+ <BUTTOn onclick="TEST()">Click me</BUTTOn>
     <script type="text/javascript">
 
-    function getname()
-    {
-        var w=document.getElementsByName('uname')[0];
-        document.getElementsByTagName("h1")[0].innerHTML=w.value;
-    }
+
+            // function TEST()
+            // {
+            //     setInterval(() => {
+                    
+            //         alert("hello world");
+            //     }, 5000);
+            
+            // }
+
+            
+
+            function TEST()
+            {
+                setTimeout(() => {
+                    
+                    alert("hello world");
+                }, 5000);
+            
+            }
+
+
 
     </script>
     
