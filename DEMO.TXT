@@ -72,3 +72,28 @@ EXTERNAL JS
     to take input from user
     PROMPT(msg,default)
 ****************************************************
+
+JAVASCRIPT VARIABLES
+
+containers hold data
+
+basic unit of storage in programming
+
+value can be change during the execution
+
+
+********************************************
+SCOPE OF FUNCTIONS
+
+* inside fucntion -> local VARIABLES
+* outside function -> Global VARIABLES
+
+* local scope inside the function or block
+* global scope outside the function
+
+*-***********************************************
+
+javascript some DOM FUNCTIONS
+
+helps to change the data of documents
+
