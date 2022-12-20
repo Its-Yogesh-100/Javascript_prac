@@ -6,36 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <style>
-      #ff {
-        color: tomato;
-        font-size: 50px;
-        text-align: center;
-        transition: 2s;
-      }
-    </style>
+  
   </head>
   <body>
-    <div id="ff" onmouseenter="modify()" onmouseleave="unmodify()">HELLO</div>
+   
+
+
+    <button onclick="openwin()">oPEN WINDOW</button>
+    <button onclick="closewin()">close WINDOW</button>
 
     <script type="text/javascript">
 
-      function modify() {
-        document.getElementById("ff").style.fontSize = "100px";
+   var win;
+   function openwin(){
+   win= window.open("https://www.youtube.com/");
+   }
 
-        document.getElementById("ff").style.color="yellow";
-
-        document.getElementById("ff").style.fontFamily="verdana";
-
-      }
-
-      function unmodify() {
-        document.getElementById("ff").style.fontSize = "50px";
-
-        document.getElementById("ff").style.color="red";
-
-        document.getElementById("ff").style.fontFamily="";
-      }
+   function closewin()
+   {
+        win.close();
+   }
+      
     </script>
   </body>
 </html>

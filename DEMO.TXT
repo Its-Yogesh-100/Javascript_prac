@@ -128,3 +128,6 @@ MODIFY CSS USING JS
  css changing 
 
 **********************************************
+
+OPEN AND CLOSE A NEW WINDOW USING JS
+WINDOW DOM 
