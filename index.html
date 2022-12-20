@@ -8,39 +8,39 @@
 </head>
 <body>
 
+    <h1 id="res"></h1>
 
-    <h1 id="ff"></h1>
+    <button onclick="getdate()">DATE</button>
 
-    <input type="text" id="inp">
-    <button id="push" onclick="push()">
-        PUSH
-    </button>
+    <button onclick="getYear()">Year</button>
 
-    <button  onclick="pop()">
-        POP
-    </button>
+    <button onclick="getday()">DAY</button>
+
+    <button onclick="getday()">DAY</button>
+
+    <button onclick="getday()">DAY</button>v
  
-
     <script type="text/javascript">
 
-   var arr=["apple","mango","banana","jackfrouit"];
+        var date=new Date();
+        function getdate()
+        {
+            document.getElementById("res").innerHTML=date;
+        }
+
+        function getYear()
+        {
+            document.getElementById("res").innerHTML=date.getFullYear();
+        }
+
+        function getday()
+        {
+            document.getElementById("res").innerHTML=date.getDay();
+        }
 
 
-   document.getElementById("ff").innerHTML=arr;
-
-   function push() {
-
-    var w=document.getElementById("inp").value;
-    arr.push(w);
-
-    document.getElementById("ff").innerHTML=arr;
-   }
-
-   function pop()
-   {
-     arr.pop();
-     document.getElementById("ff").innerHTML=arr;
-   }
+        
+  
 
   
             

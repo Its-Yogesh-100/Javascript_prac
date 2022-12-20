@@ -97,3 +97,9 @@ javascript some DOM FUNCTIONS
 
 helps to change the data of documents
 
+
+***********************************
+
+date methods
+
+
